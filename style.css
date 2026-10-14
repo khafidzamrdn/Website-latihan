@@ -1,0 +1,53 @@
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Menghilangkan garis bawah bawaan link pada pembungkus */
+.link-kotak {
+    text-decoration: none;
+}
+
+/* Gaya kotak utamanya */
+.kotak-utama {
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    transition: 0.2s ease; /* Efek transisi halus saat disentuh */
+}
+
+/* Efek saat kursor menyentuh seluruh kotak (kotak sedikit naik dan berubah warna) */
+.link-kotak:hover .kotak-utama {
+    background-color: #334155;
+    transform: translateY(-5px);
+}
+
+h1 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
+
+/* Mengubah gaya tombol di dalam kotak agar mirip penanda */
+.tekan-tombol {
+    display: inline-block;
+    background-color: #10b981;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: bold;
+}
